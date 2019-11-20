@@ -1,0 +1,977 @@
+PS C:\PE\CS2103T-T11-1> java -jar .\[CS2103T-T11-1][MooLah].jar
+Nov 21, 2019 1:06:41 AM seedu.moolah.MainApp init
+INFO: =============================[ Initializing MooLah ]===========================
+Nov 21, 2019 1:06:41 AM seedu.moolah.MainApp initConfig
+INFO: Using config file : config.json
+Nov 21, 2019 1:06:42 AM seedu.moolah.MainApp initPrefs
+INFO: Using prefs file : preferences.json
+Nov 21, 2019 1:06:42 AM seedu.moolah.commons.core.LogsCenter init
+INFO: currentLogLevel: INFO
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 21, 2019 1:06:43 AM seedu.moolah.MainApp start
+INFO: Starting MooLah V1.4.0ea
+Nov 21, 2019 1:06:43 AM seedu.moolah.ui.UiManager start
+INFO: Starting UI...
+Nov 21, 2019 1:06:45 AM javafx.scene.CssStyleHelper calculateValue
+WARNING: Caught 'java.lang.ClassCastException: class java.lang.String cannot be cast to class javafx.scene.paint.Paint (java.lang.String is in module java.base of loader 'bootstrap'; javafx.scene.paint.Paint is in unnamed module of loader 'app')' while converting value for '-fx-background-color' from rule '*.progress-bar *.bar' in stylesheet jar:file:/C:/PE/CS2103T-T11-1/%5bCS2103T-T11-1%5d%5bMooLah%5d.jar!/view/DarkTheme.css
+Nov 21, 2019 1:06:45 AM javafx.scene.CssStyleHelper calculateValue
+WARNING: Caught 'java.lang.ClassCastException: class java.lang.String cannot be cast to class javafx.scene.paint.Paint (java.lang.String is in module java.base of loader 'bootstrap'; javafx.scene.paint.Paint is in unnamed module of loader 'app')' while converting value for '-fx-background-color' from rule '*.progress-bar *.bar' in stylesheet jar:file:/C:/PE/CS2103T-T11-1/%5bCS2103T-T11-1%5d%5bMooLah%5d.jar!/view/DarkTheme.css
+Nov 21, 2019 1:06:49 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:06:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:06:52 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:52 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:06:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: undo
+Nov 21, 2019 1:06:56 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:06:56 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:06:57 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:06:57 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:06:57 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:06:57 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:06:59 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addevent d/Bangkok plane tickets t/tomorrow p/200 c/Travel?]
+Nov 21, 2019 1:06:59 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: addevent d/Bangkok plane tickets t/tomorrow p/200 c/Travel?
+Nov 21, 2019 1:07:00 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addevent d/Bangkok plane tickets t/tomorrow p/200 c/Travel]
+Nov 21, 2019 1:07:00 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New event added:
+ Description: Bangkok plane tickets Price: 200.00 Category: TRAVEL Timestamp: 22 Nov 2019, 1:07:00 AM
+Nov 21, 2019 1:07:01 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:01 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:02 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:07:02 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:07:03 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:07:03 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:07:03 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:07:03 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:07:03 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:07:03 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command: redo
+Nov 21, 2019 1:07:09 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:07:09 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add event Bangkok plane tickets (200.00)".
+Nov 21, 2019 1:07:12 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][redo]
+Nov 21, 2019 1:07:13 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Redid "Add event Bangkok plane tickets (200.00)".
+Nov 21, 2019 1:07:28 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:28 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:28 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:28 AM
+Nov 21, 2019 1:07:29 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:29 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:30 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:30 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:30 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:30 AM
+Nov 21, 2019 1:07:30 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:30 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:30 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:30 AM
+Nov 21, 2019 1:07:31 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:31 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:31 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:31 AM
+Nov 21, 2019 1:07:31 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:31 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:31 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:31 AM
+Nov 21, 2019 1:07:32 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:32 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:32 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:32 AM
+Nov 21, 2019 1:07:32 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:32 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:32 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:32 AM
+Nov 21, 2019 1:07:33 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:33 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:33 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:33 AM
+Nov 21, 2019 1:07:33 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:33 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:33 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:33 AM
+Nov 21, 2019 1:07:33 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:34 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:33 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:33 AM
+Nov 21, 2019 1:07:34 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:34 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:34 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:34 AM
+Nov 21, 2019 1:07:34 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:34 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:34 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:34 AM
+Nov 21, 2019 1:07:34 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:34 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:34 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:34 AM
+Nov 21, 2019 1:07:35 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:35 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:35 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:35 AM
+Nov 21, 2019 1:07:36 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:36 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:36 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:36 AM
+Nov 21, 2019 1:07:38 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:38 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:38 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:38 AM
+Nov 21, 2019 1:07:38 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:38 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:38 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:38 AM
+Nov 21, 2019 1:07:39 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:39 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:39 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:39 AM
+Nov 21, 2019 1:07:39 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:39 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:39 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:39 AM
+Nov 21, 2019 1:07:39 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:39 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:39 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:39 AM
+Nov 21, 2019 1:07:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:40 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:40 AM
+Nov 21, 2019 1:07:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:40 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:40 AM
+Nov 21, 2019 1:07:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:40 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:40 AM
+Nov 21, 2019 1:07:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:40 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:40 AM
+Nov 21, 2019 1:07:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:40 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:40 AM
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:41 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:41 AM
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:41 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:41 AM
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:41 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:41 AM
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:42 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:42 AM
+Nov 21, 2019 1:07:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:42 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:42 AM
+Nov 21, 2019 1:07:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:42 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:42 AM
+Nov 21, 2019 1:07:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:42 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:42 AM
+Nov 21, 2019 1:07:43 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:43 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:43 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:43 AM
+Nov 21, 2019 1:07:43 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:43 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:43 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:43 AM
+Nov 21, 2019 1:07:43 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:43 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:43 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:43 AM
+Nov 21, 2019 1:07:44 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:44 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:44 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:44 AM
+Nov 21, 2019 1:07:44 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:44 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:44 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:44 AM
+Nov 21, 2019 1:07:44 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:44 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:44 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:44 AM
+Nov 21, 2019 1:07:44 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:44 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:44 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:44 AM
+Nov 21, 2019 1:07:45 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:45 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:45 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:45 AM
+Nov 21, 2019 1:07:45 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:45 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:45 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:45 AM
+Nov 21, 2019 1:07:45 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:45 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:45 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:45 AM
+Nov 21, 2019 1:07:45 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:45 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:45 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:45 AM
+Nov 21, 2019 1:07:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:46 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:46 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:46 AM
+Nov 21, 2019 1:07:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:46 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:46 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:46 AM
+Nov 21, 2019 1:07:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:46 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:46 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:46 AM
+Nov 21, 2019 1:07:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:46 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:46 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:46 AM
+Nov 21, 2019 1:07:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:46 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:46 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:46 AM
+Nov 21, 2019 1:07:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:47 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:47 AM
+Nov 21, 2019 1:07:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:47 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:47 AM
+Nov 21, 2019 1:07:48 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:48 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:48 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:48 AM
+Nov 21, 2019 1:07:48 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:48 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:48 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:48 AM
+Nov 21, 2019 1:07:48 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:48 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:48 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:48 AM
+Nov 21, 2019 1:07:48 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:48 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:48 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:48 AM
+Nov 21, 2019 1:07:49 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:49 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:49 AM
+Nov 21, 2019 1:07:49 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:49 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:49 AM
+Nov 21, 2019 1:07:49 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:49 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:49 AM
+Nov 21, 2019 1:07:49 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:49 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:49 AM
+Nov 21, 2019 1:07:50 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:50 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:50 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:50 AM
+Nov 21, 2019 1:07:50 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:50 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:50 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:50 AM
+Nov 21, 2019 1:07:50 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:50 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:50 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:50 AM
+Nov 21, 2019 1:07:50 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:50 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:50 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:50 AM
+Nov 21, 2019 1:07:51 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:51 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:51 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:51 AM
+Nov 21, 2019 1:07:51 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:51 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:51 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:51 AM
+Nov 21, 2019 1:07:52 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:52 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:52 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:52 AM
+Nov 21, 2019 1:07:52 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:52 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:52 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:52 AM
+Nov 21, 2019 1:07:53 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:53 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:53 AM
+Nov 21, 2019 1:07:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:54 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:54 AM
+Nov 21, 2019 1:07:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][]
+Nov 21, 2019 1:07:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Invalid command:
+Nov 21, 2019 1:07:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:54 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:54 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:54 AM
+Nov 21, 2019 1:07:55 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:55 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:55 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:55 AM
+Nov 21, 2019 1:07:56 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:56 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:56 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:56 AM
+Nov 21, 2019 1:07:56 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:56 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:56 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:56 AM
+Nov 21, 2019 1:07:57 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:57 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:57 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:57 AM
+Nov 21, 2019 1:07:58 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:58 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:58 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:58 AM
+Nov 21, 2019 1:07:58 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:58 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:58 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:58 AM
+Nov 21, 2019 1:07:59 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:59 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:59 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:59 AM
+Nov 21, 2019 1:07:59 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:07:59 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:07:59 AM Category: FOOD Timestamp: 21 Nov 2019, 1:07:59 AM
+Nov 21, 2019 1:08:00 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:00 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:00 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:00 AM
+Nov 21, 2019 1:08:01 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:01 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:01 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:01 AM
+Nov 21, 2019 1:08:01 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:01 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:01 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:01 AM
+Nov 21, 2019 1:08:02 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:02 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:02 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:02 AM
+Nov 21, 2019 1:08:02 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:02 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:02 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:02 AM
+Nov 21, 2019 1:08:03 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:03 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:03 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:03 AM
+Nov 21, 2019 1:08:03 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:03 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:03 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:03 AM
+Nov 21, 2019 1:08:04 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:04 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:04 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:04 AM
+Nov 21, 2019 1:08:04 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:04 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:04 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:04 AM
+Nov 21, 2019 1:08:05 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:05 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:05 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:05 AM
+Nov 21, 2019 1:08:05 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:05 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:05 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:05 AM
+Nov 21, 2019 1:08:06 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:06 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:06 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:06 AM
+Nov 21, 2019 1:08:06 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:06 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:06 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:06 AM
+Nov 21, 2019 1:08:06 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:06 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:06 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:06 AM
+Nov 21, 2019 1:08:07 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:07 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:07 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:07 AM
+Nov 21, 2019 1:08:07 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:07 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:07 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:07 AM
+Nov 21, 2019 1:08:08 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:08 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:08 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:08 AM
+Nov 21, 2019 1:08:08 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:08 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:08 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:08 AM
+Nov 21, 2019 1:08:09 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:09 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:09 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:09 AM
+Nov 21, 2019 1:08:09 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:09 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:09 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:09 AM
+Nov 21, 2019 1:08:09 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:09 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:09 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:09 AM
+Nov 21, 2019 1:08:10 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:10 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:10 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:10 AM
+Nov 21, 2019 1:08:10 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:10 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:10 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:10 AM
+Nov 21, 2019 1:08:10 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:11 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:10 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:10 AM
+Nov 21, 2019 1:08:11 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:11 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:11 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:11 AM
+Nov 21, 2019 1:08:11 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:11 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:11 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:11 AM
+Nov 21, 2019 1:08:12 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:12 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:12 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:12 AM
+Nov 21, 2019 1:08:12 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:12 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:12 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:12 AM
+Nov 21, 2019 1:08:12 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:12 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:12 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:12 AM
+Nov 21, 2019 1:08:13 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:13 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:13 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:13 AM
+Nov 21, 2019 1:08:13 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:13 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:13 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:13 AM
+Nov 21, 2019 1:08:13 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:14 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:13 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:13 AM
+Nov 21, 2019 1:08:14 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:14 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:14 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:14 AM
+Nov 21, 2019 1:08:14 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:14 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:14 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:14 AM
+Nov 21, 2019 1:08:15 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:15 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:15 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:15 AM
+Nov 21, 2019 1:08:15 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:15 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:15 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:15 AM
+Nov 21, 2019 1:08:15 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:15 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:15 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:15 AM
+Nov 21, 2019 1:08:16 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:16 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:16 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:16 AM
+Nov 21, 2019 1:08:16 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:16 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:16 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:16 AM
+Nov 21, 2019 1:08:16 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:16 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:16 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:16 AM
+Nov 21, 2019 1:08:17 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:17 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:17 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:17 AM
+Nov 21, 2019 1:08:17 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:17 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:17 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:17 AM
+Nov 21, 2019 1:08:17 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:17 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:17 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:17 AM
+Nov 21, 2019 1:08:18 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:18 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:18 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:18 AM
+Nov 21, 2019 1:08:18 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:18 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:18 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:18 AM
+Nov 21, 2019 1:08:18 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:18 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:18 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:18 AM
+Nov 21, 2019 1:08:19 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:19 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:19 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:19 AM
+Nov 21, 2019 1:08:19 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:19 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:19 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:19 AM
+Nov 21, 2019 1:08:19 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:19 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:19 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:19 AM
+Nov 21, 2019 1:08:20 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:20 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:20 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:20 AM
+Nov 21, 2019 1:08:20 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:20 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:20 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:20 AM
+Nov 21, 2019 1:08:20 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:20 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:20 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:20 AM
+Nov 21, 2019 1:08:21 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:21 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:21 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:21 AM
+Nov 21, 2019 1:08:21 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:21 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:21 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:21 AM
+Nov 21, 2019 1:08:21 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:21 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:21 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:21 AM
+Nov 21, 2019 1:08:22 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:22 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:22 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:22 AM
+Nov 21, 2019 1:08:22 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:22 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:22 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:22 AM
+Nov 21, 2019 1:08:22 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:22 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:22 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:22 AM
+Nov 21, 2019 1:08:23 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:23 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:23 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:23 AM
+Nov 21, 2019 1:08:23 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:23 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:23 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:23 AM
+Nov 21, 2019 1:08:23 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:23 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:23 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:23 AM
+Nov 21, 2019 1:08:23 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:23 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:23 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:23 AM
+Nov 21, 2019 1:08:24 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:24 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:24 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:24 AM
+Nov 21, 2019 1:08:24 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:24 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:24 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:24 AM
+Nov 21, 2019 1:08:24 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:24 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:24 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:24 AM
+Nov 21, 2019 1:08:24 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:25 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:24 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:24 AM
+Nov 21, 2019 1:08:25 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:25 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:25 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:25 AM
+Nov 21, 2019 1:08:25 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][addexpense d/test p/1 c/food]
+Nov 21, 2019 1:08:25 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: New expense added:
+ Description: test Price: 1.00 Date: 21 Nov 2019, 1:08:25 AM Category: FOOD Timestamp: 21 Nov 2019, 1:08:25 AM
+Nov 21, 2019 1:08:37 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:37 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:38 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:38 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:38 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:39 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:39 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:39 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:39 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:40 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:40 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:41 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:41 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:42 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:42 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:43 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:43 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:43 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:44 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:45 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:46 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:47 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:47 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:49 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:50 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:51 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:52 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:53 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:54 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:55 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Nov 21, 2019 1:08:56 AM seedu.moolah.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][undo]
+Nov 21, 2019 1:08:57 AM seedu.moolah.ui.MainWindow executeCommand
+INFO: Result: Undid "Add expense test (1.00)".
+Exception in thread "JavaFX Application Thread" java.lang.OutOfMemoryError: Java heap space
+        at com.sun.prism.Image.convertImageFrame(Image.java:243)
+        at com.sun.javafx.tk.quantum.PrismImageLoader2.convertAll(PrismImageLoader2.java:174)
+        at com.sun.javafx.tk.quantum.PrismImageLoader2.loadAll(PrismImageLoader2.java:143)
+        at com.sun.javafx.tk.quantum.PrismImageLoader2.<init>(PrismImageLoader2.java:77)
+        at com.sun.javafx.tk.quantum.QuantumToolkit.loadImage(QuantumToolkit.java:750)
+        at javafx.scene.image.Image.loadImage(Image.java:1060)
+        at javafx.scene.image.Image.initialize(Image.java:799)
+        at javafx.scene.image.Image.<init>(Image.java:702)
+        at seedu.moolah.commons.util.AppUtil.getImage(AppUtil.java:15)
+        at seedu.moolah.ui.expense.ExpenseCard.setIcon(ExpenseCard.java:100)
+        at seedu.moolah.ui.expense.ExpenseCard.<init>(ExpenseCard.java:91)
+        at seedu.moolah.ui.expense.ExpenseListPanel$ExpenseListViewCell.updateItem(ExpenseListPanel.java:65)
+        at seedu.moolah.ui.expense.ExpenseListPanel$ExpenseListViewCell.updateItem(ExpenseListPanel.java:56)
+        at javafx.scene.control.ListCell.updateItem(ListCell.java:478)
+        at javafx.scene.control.ListCell.indexChanged(ListCell.java:337)
+        at javafx.scene.control.IndexedCell.updateIndex(IndexedCell.java:120)
+        at javafx.scene.control.skin.VirtualFlow.setCellIndex(VirtualFlow.java:1708)
+        at javafx.scene.control.skin.VirtualFlow.addTrailingCells(VirtualFlow.java:2042)
+        at javafx.scene.control.skin.VirtualFlow.layoutChildren(VirtualFlow.java:1253)
+        at javafx.scene.Parent.layout(Parent.java:1204)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Parent.layout(Parent.java:1211)
+        at javafx.scene.Scene.doLayoutPass(Scene.java:576)
+        at javafx.scene.Scene$ScenePulseListener.pulse(Scene.java:2482)
+        at com.sun.javafx.tk.Toolkit.lambda$runPulse$2(Toolkit.java:412)
+        at com.sun.javafx.tk.Toolkit$$Lambda$785/0x00000001004e0840.run(Unknown Source)
+        at java.base/java.security.AccessController.doPrivileged(Native Method)
+
+
